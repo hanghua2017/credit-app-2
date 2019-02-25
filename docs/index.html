@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<!-- correct the ios safari auto correct for phone number -->
+	<meta name="format-detection" content="telephone=no">
+	<title>Curacao Credit Application</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="https://icuracao.com/ci_media/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="https://icuracao.com/ci_media/css/credit_app/main.css" />
+	<link rel="shortcut icon" type="image/ico" href="https://icuracao.com/ci_media/images/favicon.ico">
+  
+  <script type="text/javascript" src="https://icuracao.com/ci_media/js/credit_app/main.js"></script>
+  <script type="text/javascript" src="https://icuracao.com/ci_media/js/jquery.mask.js">
+    
+  </script>
+	
+	<!-- Google Tag Manager -->
+	<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KRPVSQG');</script> -->
+	<!-- End Google Tag Manager -->
+	
+  <title>Curacao Credit App</title>
+	
+</head>
+<body>
+	
+	<!-- Google Tag Manager (noscript) -->
+	<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRPVSQG"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<!-- <script>
+	var urlPrepath = '/credit-app/';
+	console.log('test on header page');
+	</script> -->
+	
+  <!-- <div id="loader" style="display:none;">
+		<div>
+			<img src="https://icuracao.com/ci_media/images/logo-animation.gif">
+			<span id="loadermessage"></span>
+		</div>
+	</div> -->
+      
+  <!-- <div>	
+    Icon from assets folder:
+    <img src="https://icuracao.com/ci_media/images/credit_app/favicon.ico"/>
+  </div> -->
+
+</body>
+</html><div id="header" class="page-header landing">
+	<div class="header-center">
+		<img class="header-image" src="https://icuracao.com/ci_media/images/logo.png" alt="Curacao"/>		
+		<div class="desktop-only">
+			<div class="header-right">
+				<span class="header-text">Apply by Phone</span><span class="header-phone"> 1 800-990-3422</span><br/>
+				<!--  -->
+													<a class="language-switch">ESPAÑOL</a>
+							</div>
+		</div>
+	</div>
+	<div class="mobile-only">
+	<!--  -->
+			<a class="language-switch">ESPAÑOL</a>
+		</div>
+	
+</div>
+
+<!-- landing page -->
+
+    <!-- 2/25/2019 -- styles -- begin -->
+        <style type="text/css">
+            /* media queries -- begin */
+                @media screen and (max-width: 780px) {
+                    #c2-hero-pc {
+                        display: none;
+                    }
+                    .c2-check {
+                        max-width: 18px;
+                        vertical-align: top;
+                    }
+                    .c2-collapsible {
+                        font-size: 17px;
+                    }
+                    .c2-p {
+                        font-size: 16px;
+                        padding: 0 1rem;
+                    }
+                    .page-header {
+                        height: auto;
+                    }
+                }
+                @media screen and (min-width: 781px) {
+                    #CCA_center {
+                        max-width: 990px;
+                        width: 100%;
+                    }
+                    #CCA_landing .title {
+                        text-align: center;
+                    }
+                    #c2-hero-mob {
+                        display: none;
+                    }
+                    .c2-p {
+                        font-size: 24px;
+                        padding: 1rem;
+                    }
+                    .c2-collapsible {
+                        font-size: 25px;
+                    }
+                    .c2-check {
+                        max-width: 26px;
+                        vertical-align: top;
+                    }
+                }
+            /* media queries -- end */
+            /* other css -- begin */
+                #c2-hero-pc {
+                    height: auto;
+                    margin: 0 auto;
+                    max-width: 100%;
+                    width: 100%;
+                }
+                #terms-center {
+                    border: none;
+                    padding: 0;
+                }
+                .active {
+                    color: #90C13E !important;
+                }
+                .active:after {
+                    content: "\2212";
+                    color: #90C13E;
+                }
+                .active,
+                .c2-collapsible:hover {
+                    background-color: white;
+                }
+                .c2-collapsible {
+                    background-color: white;
+                    color: black;
+                    cursor: pointer;
+                    font-weight: bold;
+                    padding: 18px;
+                    width: 100%;
+                    border: none;
+                    text-align: left;
+                    outline: none;
+                }
+                .c2-collapsible:after {
+                    content: '\002B';
+                    color: #90C13E;
+                    font-weight: bold;
+                    float: right;
+                    margin-left: 5px;
+                }
+                .c2-content {
+                    padding: 0 18px;
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: all .5s;
+                    background-color: white;
+                }
+                .c2-half {
+                    box-sizing: border-box;
+                    float: left;
+                    padding: 0;
+                    text-align: center;
+                    width: 50%;
+                }
+                .c2-fourth {
+                    box-sizing: border-box;
+                    float: left;
+                    padding: 0;
+                    text-align: center;
+                    width: 25%;
+                }
+                #c2-hero-mob {
+                    height: auto;
+                    margin: 0 auto;
+                    max-width: 450px;
+                    width: 100%;
+                }
+                .c2-row {
+                    margin: 0 auto;
+                    margin-bottom: 6px;
+                    max-width: 1470px;
+                    text-align: center;
+                }
+                .c2-row:after {
+                    box-sizing: border-box;
+                    clear: both;
+                    content: "";
+                    display: table;
+                }
+                .c2-pad {
+                    padding: 1rem !important;
+                }
+            /* other css -- end */
+        </style>
+    <!-- 2/25/2019 -- styles -- end -->
+
+<!-- landing page -begin -->
+    <div id="CCA_center">
+            <div id="CCA_landing">
+                <div class="title" style="color: black !important;">Curacao's Online Credit Application </div> <!-- ENGLISH -->
+                <!-- <div class="title">Solicitud de cuenta de crédito Curacao </div> --> <!-- SPANISH -->
+                <div class="c2-row">
+                    <img id="c2-hero-pc" src="https://icuracao.com/pub/media/wysiwyg/credit-app/curacao-credit-app-PC-eng.png" alt="Curacao Credit App" /> <!-- ENGLISH -->
+                    <img id="c2-hero-mob" src="https://icuracao.com/pub/media/wysiwyg/credit-app/curacao-credit-app-MOB-eng.png" alt="Curacao Credit App" /> <!-- ENGLISH -->
+                    <!-- <img id="c2-hero-pc" src="https://icuracao.com/pub/media/wysiwyg/credit-app/curacao-credit-app-PC-esp.png" alt="Curacao Credit App" />  --> <!-- SPANISH -->
+                    <!-- <img id="c2-hero-mob" src="https://icuracao.com/pub/media/wysiwyg/credit-app/curacao-credit-app-MOB-esp.png" alt="Curacao Credit App" />  --> <!-- SPANISH -->
+                </div>
+                <div class="c2-row">
+                    <button class="c2-collapsible">
+                        <img class="c2-check" src="https://icuracao.com/pub/media/wysiwyg/credit-app/checked-icon.png" alt="Checked Icon" />
+                        <span>Flexible Payment Options</span> <!-- ENGLISH -->
+                        <!-- <span>Solicitar crédito es rápido y fácil.</span> --> <!-- SPANISH -->
+                    </button>
+                    <div class="c2-content">
+                        <p class="c2-p">Curacao offers low interest rates and flexible and easy payment options.</p> <!-- ENGLISH -->
+                        <!-- <p class="c2-p">Obtén crédito sin ningún esfuerzo. La información básica es todo lo que necesitas. Aplicar en minutos.</p> --> <!-- SPANISH -->
+                    </div>
+                    <button class="c2-collapsible">
+                        <img class="c2-check" src="https://icuracao.com/pub/media/wysiwyg/credit-app/checked-icon.png" alt="Checked Icon" />
+                        <span>Applying is fast and easy.</span> <!-- ENGLISH -->
+                        <!-- <span>Opciones de pago flexibles.</span>  --> <!-- SPANISH -->
+                    </button>
+                    <div class="c2-content">
+                        <p class="c2-p">Getting credit is effortless. Basic information is all you need to apply anywhere in minutes.</p> <!-- ENGLISH -->
+                        <!-- <p class="c2-p">Tasas de interés bajas y opciones de pago flexibles y fáciles. Tu estableces una cantidad de pago mensual, Nosotros agregaremos el interés mensual por una cantidad de pago más rápida y asequible para ayudarte. Asi pagas más rápido en el marco de tiempo correcto.</p> --> <!-- SPANISH -->
+                    </div>
+                    <button class="c2-collapsible">
+                        <img class="c2-check" src="https://icuracao.com/pub/media/wysiwyg/credit-app/checked-icon.png" alt="Checked Icon" />
+                        <span>Applying is secure.</span> <!-- ENGLISH -->
+                        <!-- <span>Solicitar crédito es seguro.</span> --> <!-- SPANISH -->
+                    </button>
+                    <div class="c2-content">
+                        <p class="c2-p">Your privacy is our main goal. Your info is never shared.</p> <!-- ENGLISH -->
+                        <!-- <p class="c2-p">Tu privacidad es nuestro principal objetivo. Tu información nunca es compartida.</p>  --> <!-- SPANISH -->
+                    </div>
+                </div>
+                <button class="landing-button button" onclick="start_application()"> GET STARTED! </button> <!-- ENGLISH -->
+                <!-- <button class="landing-button button" onclick="start_application()"> APPLICA AQUI </button> --> <!-- SPANISH -->
+                <div id="terms-center">
+                    <p id="terms-text">
+                        <span>View Pricing and Terms for </span> <!-- ENGLISH -->
+                        <!-- <span>Ver tasa de interés  y tarifas para </span> --> <!-- SPANISH -->
+                        <a href="https://icuracao.com/ci_media/pdf/terms_ca_033018.pdf" target="_blank">California</a>, 
+                        <a href="https://icuracao.com/ci_media/pdf/terms_az_033018.pdf" target="_blank">Arizona</a>
+                        <span> or </span> <!-- ENGLISH -->
+                        <!-- <span> o </span> --> <!-- SPANISH -->
+                        <a href="https://icuracao.com/ci_media/pdf/terms_nv_033018.pdf" target="_blank">Nevada</a>
+                    </p>
+                </div>
+                <div class="c2-pad" style="padding: 1rem;">
+                    <!-- ENGLISH -->
+                        <small>*0% interest applies to special promotions during the year on select products, and as long as all payments are
+                            made on time and the entire purchase amount is paid in full as agreed upon time period. If you default in making any
+                            minimum payment by the due date at any time during the promotional payment period, then the entire balance is subject to
+                            interest charges from the initial date of purchase.</small>
+                    <!-- SPANISH -->
+                    <!-- <small>* 0% de interés aplica solamente en promociones especiales durante el año en productos
+                        seleccionados, y siempre que todos los pagos se realicen enEl tiempo y el monto total de la compra se paguen 
+                        en su totalidad según lo acordado en el período de tiempo. Si no cumple con los pagos mínimos antes de la fecha 
+                        de vencimiento en cualquier momento durante el período de pago promocional, el saldo completo estará sujeto a los 
+                        cargos por intereses desde la fecha inicial de compra.</small> -->
+                </div>
+            </div>
+        </div>
+    <!-- landing page - end -->
+    <!-- footer - begin -->
+        <div id="landing-footer" class="page-footer" style="position: relative; bottom: 0;">
+            <div id="landing-phone" class="footer-phone">
+                <img class="footer-image" src="https://icuracao.com/ci_media/images/credit_app/phone.png" />
+                <a class="phone-number" href="tel:800-990-3422">800-990-3422</a>
+            </div>
+        </div>
+    <!-- footer - end -->
+    <!-- script - begin -->
+        <script>
+            var coll = document.getElementsByClassName("c2-collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+    <!-- script - end -->
+
+
+	
+<!-- <script type="text/javascript">
+	let full_url = window.location.href;
+	if(full_url.indexOf('?') != -1){
+			let query = full_url.substring(full_url.indexOf('?')+1);
+			window.sessionStorage.setItem('queryFromSource',query);
+	}
+</script> -->
