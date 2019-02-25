@@ -77,135 +77,167 @@
 <!-- landing page -->
 
     <!-- 2/25/2019 -- styles -- begin -->
-        <style type="text/css">
-            /* media queries -- begin */
-                @media screen and (max-width: 780px) {
-                    #c2-hero-pc {
-                        display: none;
-                    }
-                    .c2-check {
-                        max-width: 18px;
-                        vertical-align: top;
-                    }
-                    .c2-collapsible {
-                        font-size: 17px;
-                    }
-                    .c2-p {
-                        font-size: 16px;
-                        padding: 0 1rem;
-                    }
-                    .page-header {
-                        height: auto;
-                    }
-                }
-                @media screen and (min-width: 781px) {
-                    #CCA_center {
-                        max-width: 990px;
-                        width: 100%;
-                    }
-                    #CCA_landing .title {
-                        text-align: center;
-                    }
-                    #c2-hero-mob {
-                        display: none;
-                    }
-                    .c2-p {
-                        font-size: 24px;
-                        padding: 1rem;
-                    }
-                    .c2-collapsible {
-                        font-size: 25px;
-                    }
-                    .c2-check {
-                        max-width: 26px;
-                        vertical-align: top;
-                    }
-                }
-            /* media queries -- end */
-            /* other css -- begin */
+    <style type="text/css">
+        /* media queries -- begin */
+            @media screen and (max-width: 780px) {
                 #c2-hero-pc {
-                    height: auto;
-                    margin: 0 auto;
-                    max-width: 100%;
-                    width: 100%;
+                    display: none;
                 }
-                #terms-center {
-                    border: none;
-                    padding: 0;
-                }
-                .active {
-                    color: #90C13E !important;
-                }
-                .active:after {
-                    content: "\2212" !important;
-                    color: #90C13E;
-                }
-                .active,
-                .c2-collapsible:hover {
-                    background-color: white;
+                .c2-check {
+                    max-width: 18px;
+                    vertical-align: top;
                 }
                 .c2-collapsible {
-                    background-color: white;
-                    color: black;
+                    font-size: 17px;
+                }
+                .c2-p {
+                    font-size: 16px;
+                    padding: 0 1rem;
+                }
+                .page-header {
+                    height: auto;
+                }
+                #CCA_landing .button {
                     cursor: pointer;
                     font-weight: bold;
-                    padding: 18px;
+                    background: rgb(242, 103, 34);
+                    color: #FFFFFF;
+                    border-radius: 10px;
                     width: 100%;
-                    border: none;
-                    text-align: left;
-                    outline: none;
+                    margin: 2vh auto;
+                    border: 0;
+                    font-size: 1.375em;
+                    height: auto;
+                    display: block;
+                    padding: 15px;
+                    max-width: 450px;
                 }
-                .c2-collapsible:after {
-                    content: '\002B';
-                    color: #90C13E;
-                    font-weight: bold;
-                    float: right;
-                    margin-left: 5px;
+                #landing-footer {
+                    height: auto;
+                    padding: .5rem;
+                    position: relative;
+                    bottom: 0;
                 }
-                .c2-content {
-                    padding: 0 18px;
-                    max-height: 0;
+                .footer-phone {
+                    position: relative;
+                    height: auto !important;
+                    margin: 0;
+                    width: 100%;
                     overflow: hidden;
-                    transition: all .5s;
-                    background-color: white;
-                }
-                .c2-half {
-                    box-sizing: border-box;
-                    float: left;
-                    padding: 0;
+                    background: #97d700;
+                    color: #ffffff;
+                    padding: 0vw;
                     text-align: center;
-                    width: 50%;
                 }
-                .c2-fourth {
-                    box-sizing: border-box;
-                    float: left;
-                    padding: 0;
+            }
+            @media screen and (min-width: 781px) {
+                #CCA_center {
+                    max-width: 990px;
+                    width: 100%;
+                }
+                #CCA_landing .title {
                     text-align: center;
-                    width: 25%;
                 }
                 #c2-hero-mob {
-                    height: auto;
-                    margin: 0 auto;
-                    max-width: 450px;
-                    width: 100%;
+                    display: none;
                 }
-                .c2-row {
-                    margin: 0 auto;
-                    margin-bottom: 6px;
-                    max-width: 1470px;
-                    text-align: center;
+                .c2-p {
+                    font-size: 24px;
+                    padding: 1rem;
                 }
-                .c2-row:after {
-                    box-sizing: border-box;
-                    clear: both;
-                    content: "";
-                    display: table;
+                .c2-collapsible {
+                    font-size: 25px;
                 }
-                .c2-pad {
-                    padding: 1rem !important;
+                .c2-check {
+                    max-width: 26px;
+                    vertical-align: top;
                 }
-            /* other css -- end */
-        </style>
+            }
+        /* media queries -- end */
+        /* other css -- begin */
+            #c2-hero-pc {
+                height: auto;
+                margin: 0 auto;
+                max-width: 100%;
+                width: 100%;
+            }
+            #terms-center {
+                border: none;
+                padding: 0;
+            }
+            .active {
+                color: #90C13E !important;
+            }
+            .active:after {
+                content: "\2212" !important;
+                color: #90C13E;
+            }
+            .active,
+            .c2-collapsible:hover {
+                background-color: white;
+            }
+            .c2-collapsible {
+                background-color: white;
+                color: black;
+                cursor: pointer;
+                font-weight: bold;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+            }
+            .c2-collapsible:after {
+                content: '\002B';
+                color: #90C13E;
+                font-weight: bold;
+                float: right;
+                margin-left: 5px;
+            }
+            .c2-content {
+                padding: 0 18px;
+                max-height: 0;
+                overflow: hidden;
+                transition: all .5s;
+                background-color: white;
+            }
+            .c2-half {
+                box-sizing: border-box;
+                float: left;
+                padding: 0;
+                text-align: center;
+                width: 50%;
+            }
+            .c2-fourth {
+                box-sizing: border-box;
+                float: left;
+                padding: 0;
+                text-align: center;
+                width: 25%;
+            }
+            #c2-hero-mob {
+                height: auto;
+                margin: 0 auto;
+                max-width: 450px;
+                width: 100%;
+            }
+            .c2-row {
+                margin: 0 auto;
+                margin-bottom: 6px;
+                max-width: 1470px;
+                text-align: center;
+            }
+            .c2-row:after {
+                box-sizing: border-box;
+                clear: both;
+                content: "";
+                display: table;
+            }
+            .c2-pad {
+                padding: 1rem !important;
+            }
+        /* other css -- end */
+    </style>
     <!-- 2/25/2019 -- styles -- end -->
 
 <!-- landing page -begin -->
